@@ -254,7 +254,8 @@ class Trainer:
                     print(" Early stopping triggered.")
                     break
         
-        print(f"🏁 Best VAL SMAPE: {self.best_smape:.3f}% | Checkpoint: {best_path}")
-        print(f"📈 Training complete! Model saved to: {self.config.output_dir}")
+        print(f"Best VAL SMAPE: {self.best_smape:.3f}% | Checkpoint: {best_path}")
+        print(f"Training complete! Model saved to: {self.config.output_dir}")
         
+
         return self.best_smape
