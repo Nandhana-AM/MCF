@@ -17,7 +17,7 @@ setup(
     description="Dual-backbone deep learning model for product price prediction",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="<will add later>",
+    url="https://github.com/Nandhana-AM/MCF.git",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=requirements,
@@ -27,4 +27,5 @@ setup(
             "predict-prices=inference:main",
         ],
     },
+
 )
